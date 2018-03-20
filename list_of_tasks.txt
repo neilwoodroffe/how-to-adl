@@ -1,0 +1,78 @@
+Withdraw money from an ATM
+1)	Go to an ATM
+2)	Take out your bankcard from your wallet/purse
+3)	Put your bankcard into the ATM machine
+4)	Enter your pin number
+5)	Choose the transaction and account type
+6)	Enter in the amount of money you wish to withdraw
+7)	When dispensed, take out your bankcard, money and account balance
+8)	Place your bankcard and money back into your wallet
+
+Grocery Shopping
+1)	Check your pantry and fridge for groceries that you may need
+2)	Write a shopping list
+3)	Go to the grocery store
+4)	Obtain a shopping trolley or basket
+5)	Navigate through  the store to find the required groceries using your shopping list 
+6)	Check your Shopping list to ensure you have found all of the groceries you need
+7)	Go to the checkout to pay for your groceries
+8)	Take your groceries home
+9)	Pack your groceries away in the pantry and fridge
+
+
+Cooking chicken stirfry
+1)  Wash your hands
+2)	Get your ingredients ready
+3)	Cut up the chicken and vegetables
+4)	Add oil to pan and turn on hotplate to a medium-high heat
+5)	Cook chicken throughout until light golden brown
+6)	Add vegetables and sauce and stir regularly
+7)	Turn heat down to low-medium heat and simmer until vegetable are cooked
+8)	Turn off the hot plate
+9)	Serve stirfry with noodles or rice
+
+Laundry
+1)	Collect your dirty clothing
+2)	Load the washing machine with the dirty clothing
+3)	Add laundry powder and close the washing machine door
+4)	Set the washing machine to wash cycle
+5)	Press the start button
+6)	Once finished open the washing machine door
+7)	Empty the clean wet clothes into a basket
+8)	Hang the wet clothes onto the clothes line
+9)	Once dry fold the clothes and put them away
+
+Cleaning the floor
+1)	Pick up the broom
+2)	Sweep the dust on the floor into piles
+3)	Pick up the dustpan and brush
+4)	Sweep the piles of dust into the dustpan
+5)  Empty the dustpan into the bin
+6)	Fill up the bucket with water and add floor cleaner
+7)	Using the mop and bucket mop the floor
+8)	Empty the mop bucket and wait for the floor to dry
+
+Catch a bus to an unfamiliar destination
+
+1)	Search the Translink website for available bus routes and times
+2)	Make sure you have enough funds on your go card
+3)	Go to the nearest bus stop on the bus route
+4)	Hail the bus with the chosen bus route number
+5)	Swipe your go card as you hop on the bus and take a seat
+6)	Push the bell when you are at the destination
+7)	Swipe your go card as you leave the bus
+
+Go to the doctor to get a new prescription 
+1)	Phone the doctor's surgery to book an appointment
+2)	Present to the doctor's surgery for your scheduled appointment
+3)	Tell the medical admin that you have arrived
+4)	Wait in the waiting room until the doctor calls your name
+5)	Tell your doctor that you require a prescription for your medication
+6)	Present back to the medical admin to pay your bill or sign the medicare form
+7)	Attend your local pharmacy to have your prescription filled
+8) 	Take your medication home and store it in a safe place
+
+
+
+
+

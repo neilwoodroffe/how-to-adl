@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>How to ADL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+    <!-- Latest Sortable -->
+    <!-- script src=""></script -->
+    <script src="Sortable.js"></script>
+
+<style>
+p {margin: 20px;}
+#incorrect, #incorrect2, #incorrect3, #incorrect4, #incorrect5, #incorrect6, #incorrect7 {font-size: 1.5em;}
+button {margin: 20px;}
+h1 {margin: 20px;}
+h4 {margin: 20px;
+    font-style: italic;}
+figure {
+    width: 20px;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+</style>
+
+</head>
+<body>
+	<ul class="nav nav-tabs">
+		<li role="presentation" class="active"><a href="#"><strong>How to ADL</strong></a></li>
+		<li role="presentation"><a href="help.html"target="_blank">Help</a></li>
+    </ul>		
+<!-- 1) Withdraw money from an ATM -->
+<h1>Withdraw money from an ATM &nbsp&nbsp<img src="img/atm.png" alt="atm"></h1>
+<h4>Click, drag and drop to place these steps in the correct order</h4>
+
+<!-- List 1 -->
+<ul id="List" class="list-group">
+	<li id="id_8" class="list-group-item"><figure hidden>8.</figure> Place your bankcard and money into your wallet</li>
+	<li id="id_2" class="list-group-item"><figure hidden>2.</figure> Take out your bankcard from your wallet/purse</li>
+	<li id="id_1" class="list-group-item"><figure hidden>1.</figure> Go to an ATM</li>
+	<li id="id_3" class="list-group-item"><figure hidden>3.</figure> Insert your bankcard in the ATM</li>
+    <li id="id_6" class="list-group-item"><figure hidden>6.</figure> Enter the amount of money your wish to withdraw</li>
+    <li id="id_4" class="list-group-item"><figure hidden>4.</figure> Enter you PIN</li>
+    <li id="id_5" class="list-group-item"><figure hidden>5.</figure> Choose the transaction and account type</li>
+    <li id="id_7" class="list-group-item"><figure hidden>7.</figure> When dispensed, take out your bankcard, money and account balance</li>
+</ul>
+
+<!--When you click the Sumit button -->
+<button onclick="this.style.display='none'; correctAnswers(); Disable(); removeHidden(); sortList()">Submit</button>
+
+<!-- Display if correct/incorrect and correct answers -->
+<p id="incorrect"</p>
+<p id="answer"</p>
+
+<!-- 2) Grocery shopping -->
+<h1>Grocery shopping &nbsp&nbsp<img src="img/grocery.jpg" alt="grocery"></h1>
+<h4>Click, drag and drop to place these steps in the correct order</h4>
+
+<!-- List 2 -->
+<ul id="List2" class="list-group">
+	<li class="list-group-item"><figure hidden>7.</figure> Go to the checkout to pay for the groceries</li>
+    <li class="list-group-item"><figure hidden>3.</figure> Go to the grocery store</li>
+    <li class="list-group-item"><figure hidden>9.</figure> Pack your groceries away in the pantry and fridge</li>
+	<li class="list-group-item"><figure hidden>2.</figure> Write a shopping list</li>
+    <li class="list-group-item"><figure hidden>4.</figure> Obtain a shopping trolley or basket</li>
+    <li class="list-group-item"><figure hidden>5.</figure> Navigate through the store to find the required groceries using your shopping list</li>
+    <li class="list-group-item"><figure hidden>8.</figure> Take the groceries home</li>
+    <li class="list-group-item"><figure hidden>1.</figure> Check your pantry and fridge for groceries that you may need</li>
+    <li class="list-group-item"><figure hidden>6.</figure> Check your shopping list to ensure you have found all of the groceries you need</li>
+</ul>
+
+<!--When you click the Sumit button -->
+<button onclick="this.style.display='none'; correctAnswers2(); Disable2(); removeHidden2(); sortList2()">Submit</button>
+
+<!-- Display if correct/incorrect and correct answers -->
+<p id="incorrect2"</p>
+<p id="answer2"</p>
+
+<!-- 3) Cooking chicken stirfry -->
+<h1>Cooking chicken stirfry &nbsp&nbsp<img src="img/cook.jpg" alt="cook"></h1>
+<h4>Click, drag and drop to place these steps in the correct order</h4>
+
+<!-- List 3 -->
+<ul id="List3" class="list-group">
+	<li class="list-group-item"><figure hidden>6.</figure> Add vegetables, sauce and stir regularly</li>
+	<li class="list-group-item"><figure hidden>9.</figure> Serve stirfry with noodles or rice</li>
+	<li class="list-group-item"><figure hidden>5.</figure> Cook chicken until light golden brown</li>
+	<li class="list-group-item"><figure hidden>3.</figure> Cut up the chicken and vegetables </li>
+    <li class="list-group-item"><figure hidden>7.</figure> Turn heat down to low-medium heat and simmer until vegetables are cooked</li>
+    <li class="list-group-item"><figure hidden>8.</figure> Turn off the hotplate</li>
+    <li class="list-group-item"><figure hidden>4.</figure> Add oil to pan and turn on the hotplate to a medium-high heat</li>
+    <li class="list-group-item"><figure hidden>2.</figure> Get your ingredients ready</li>
+    <li class="list-group-item"><figure hidden>1.</figure> Wash your hands</li>
+</ul>
+
+<!--When you click the Sumit button -->
+<button onclick="this.style.display='none'; correctAnswers3(); Disable3(); removeHidden3(); sortList3()">Submit</button>
+
+<!-- Display if correct/incorrect and correct answers -->
+<p id="incorrect3"</p>
+<p id="answer3"</p>
+
+<!-- 4) Laundry -->
+<h1>Laundry &nbsp&nbsp<img src="img/laundry.png" alt="laundry"></h1>
+<h4>Click, drag and drop to place these steps in the correct order</h4>
+
+<!-- List 4 -->
+<ul id="List4" class="list-group">
+    <li class="list-group-item"><figure hidden>3.</figure> Add laundry powder and close the washing machine door</li>
+	<li class="list-group-item"><figure hidden>9.</figure> Once dry fold the clothes and put them away</li>
+    <li class="list-group-item"><figure hidden>5.</figure> Press the start button</li>
+	<li class="list-group-item"><figure hidden>7.</figure> Empty the clean wet clothes into a basket</li>
+    <li class="list-group-item"><figure hidden>4.</figure> Set the washing machine to wash cycle</li>
+    <li class="list-group-item"><figure hidden>2.</figure> Load the washing machine with the dirty clothing</li>
+    <li class="list-group-item"><figure hidden>6.</figure> Once finished open the washing machine door</li>
+    <li class="list-group-item"><figure hidden>8.</figure> Hang the wet clothes onto the clothes line</li>
+    <li class="list-group-item"><figure hidden>1.</figure> Collect your dirty clothing</li>
+</ul>
+
+<!--When you click the Sumit button -->
+<button onclick="this.style.display='none'; correctAnswers4(); Disable4(); removeHidden4(); sortList4()">Submit</button>
+
+<!-- Display if correct/incorrect and correct answers -->
+<p id="incorrect4"</p>
+<p id="answer4"</p>
+
+<!-- 5) Cleaning the floor -->
+<!-- http://maxpixel.freegreatpicture.com/Wipe-Mop-Housework-Mopping-Swipe-Bucket-Cleaning-30035 -->
+<h1>Cleaning the floor &nbsp&nbsp<img src="img/mop.png" alt="mop"></h1>
+<h4>Click, drag and drop to place these steps in the correct order</h4>
+
+<!-- List 5 -->
+<ul id="List5" class="list-group">
+	<li class="list-group-item"><figure hidden>3.</figure> Pick up the dustpan and brush</li>
+	<li class="list-group-item"><figure hidden>7.</figure> Using the mop and bucket mop the floor</li>
+	<li class="list-group-item"><figure hidden>5.</figure> Empty the dustpan into the bin</li>
+	<li class="list-group-item"><figure hidden>1.</figure> Pick up the broom </li>
+    <li class="list-group-item"><figure hidden>4.</figure> Sweep the piles of dust into the dustpan</li>
+    <li class="list-group-item"><figure hidden>8.</figure> Empty the mob bucket and wait for the floor to dry</li>
+    <li class="list-group-item"><figure hidden>6.</figure> Fill the bucket with hot water and add floor cleaner</li>
+    <li class="list-group-item"><figure hidden>2.</figure> Sweep the dust on the floor into piles</li>
+</ul>
+
+<!--When you click the Sumit button -->
+<button onclick="this.style.display='none'; correctAnswers5(); Disable5(); removeHidden5(); sortList5()">Submit</button>
+
+<!-- Display if correct/incorrect and correct answers -->
+<p id="incorrect5"</p>
+<p id="answer5"</p>
+
+<!-- 6) Catch a bus to an unfamiliar destination -->
+<h1>Catch a bus to an unfamiliar destination &nbsp&nbsp<img src="img/bus.png" alt="bus"></h1>
+<h4>Click, drag and drop to place these steps in the correct order</h4>
+
+<!-- List 6 -->
+<ul id="List6" class="list-group">
+	<li class="list-group-item"><figure hidden>4.</figure> Hail the bus with the chosen bus route number</li>
+	<li class="list-group-item"><figure hidden>2.</figure> Make sure you have enough funds on your go card</li>
+	<li class="list-group-item"><figure hidden>6.</figure> Push the bell when you are at the destination</li>
+    <li class="list-group-item"><figure hidden>1.</figure> Search the Translink website for available bus routes and times</li>
+    <li class="list-group-item"><figure hidden>3.</figure> Go to the nearest bus stop on the chosen bus route</li>
+    <li class="list-group-item"><figure hidden>7.</figure> Swipe your go card as you leave the bus</li>
+    <li class="list-group-item"><figure hidden>5.</figure> Swipe your go card as you hop on the bus and take a seat
+</ul>
+
+<!--When you click the Sumit button -->
+<button onclick="this.style.display='none'; correctAnswers6(); Disable6(); removeHidden6(); sortList6()">Submit</button>
+
+<!-- Display if correct/incorrect and correct answers -->
+<p id="incorrect6"</p>
+<p id="answer6"</p>
+
+<!-- 7) Go to the doctor to get a prescription -->
+<h1>Go to the doctor to get a prescription &nbsp&nbsp<img src="img/medicine.png" alt="medicine"></h1>
+<h4>Click, drag and drop to place these steps in the correct order</h4>
+
+<!-- List 7 -->
+<ul id="List7" class="list-group">
+	<li class="list-group-item"><figure hidden>2.</figure> Present to the doctor's surgery for your scheduled appointment</li>
+	<li class="list-group-item"><figure hidden>7.</figure> Attend your local pharmacy to have your prescription filled</li>
+	<li class="list-group-item"><figure hidden>3.</figure> Tell the medical admin that you have arrived</li>
+	<li class="list-group-item"><figure hidden>6.</figure> Present back to the medical admin to pay your bill or sign the medicare form</li>
+    <li class="list-group-item"><figure hidden>4.</figure> Wait in the waiting room until the doctor calls your name</li>
+    <li class="list-group-item"><figure hidden>1.</figure> Phone the doctor's surgery to book an appointment</li>
+    <li class="list-group-item"><figure hidden>8.</figure> Take your medication home and store it in a safe place</li>
+    <li class="list-group-item"><figure hidden>5.</figure> Tell your doctor that you require a prescription for your medication</li>
+</ul>
+
+<!--When you click the Sumit button -->
+<button onclick="this.style.display='none'; correctAnswers7(); Disable7(); removeHidden7(); sortList7()">Submit</button>
+
+<!-- Display if correct/incorrect and correct answers -->
+<p id="incorrect7"</p>
+<p id="answer7"</p>
+
+
+<script src="how_to_adl.js"></script>
+
+</body>
+
+</html>
+
