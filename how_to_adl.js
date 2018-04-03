@@ -12,7 +12,7 @@
   
   //Display correct answers
   function correctAnswers() {
-      document.getElementById("answer").innerHTML = "Answer:<br><br>1. Go to an ATM<br>2. Take out your bankcard from your wallet/purse<br>3. Put your bankcard into the ATM machine<br>4. Enter your pin number<br>5. Choose the transaction and account type<br>6. Enter in the amount of money you wish to withdraw<br>7. When dispensed, take out your bankcard, money and account balance<br>8. Place your bankcard and money back into your wallet <br><br>Congratulations if you got this correct, if not take time to review the answer";
+      document.getElementById("answer").innerHTML = "Answer:<br><br>1. Go to an ATM<br>2. Take out your bankcard from your wallet/purse<br>3. Put your bankcard into the ATM machine<br>4. Enter your PIN<br>5. Choose the transaction and account type<br>6. Enter in the amount of money you wish to withdraw<br>7. When dispensed, take out your bankcard, money and account balance<br>8. Place your bankcard and money back into your wallet <br><br>Congratulations if you got this correct, if not take time to review the answer";
   }
   
   //Display hidden numbers
@@ -545,3 +545,6 @@
       }
     }
   }
+  function printPage() {
+    window.print();
+}

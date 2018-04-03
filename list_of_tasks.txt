@@ -2,7 +2,7 @@ Withdraw money from an ATM
 1)	Go to an ATM
 2)	Take out your bankcard from your wallet/purse
 3)	Put your bankcard into the ATM machine
-4)	Enter your pin number
+4)	Enter your PIN
 5)	Choose the transaction and account type
 6)	Enter in the amount of money you wish to withdraw
 7)	When dispensed, take out your bankcard, money and account balance
