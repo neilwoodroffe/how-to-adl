@@ -53,6 +53,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect").innerHTML = "Sorry incorrect&nbsp&nbsp";
+          document.getElementById("summary").innerHTML = "Incorrect - Further OT assessment to assess banking is LIKELY required";
           incorrect.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -64,6 +65,7 @@
           break;
           }
           else {document.getElementById("incorrect").innerHTML = "Correct&nbsp&nbsp";
+          document.getElementById("summary").innerHTML = "Correct - Further OT assessment to assess banking is NOT LIKELY required";
           incorrect.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -132,6 +134,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect2").innerHTML = "Sorry incorrect&nbsp&nbsp";
+          document.getElementById("summary2").innerHTML = "Incorrect - Further OT assessment to assess grocery shopping is LIKELY required";
           incorrect2.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -143,6 +146,7 @@
           break;
           }
           else {document.getElementById("incorrect2").innerHTML = "Correct&nbsp&nbsp";
+          document.getElementById("summary2").innerHTML = "Correct - Further OT assessment to assess grocery shopping is NOT LIKELY required";
           incorrect2.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -211,6 +215,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect3").innerHTML = "Sorry incorrect&nbsp&nbsp";
+          document.getElementById("summary3").innerHTML = "Incorrect - Further OT assessment to assess cooking is LIKELY required";
           incorrect3.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -222,6 +227,7 @@
           break;
           }
           else {document.getElementById("incorrect3").innerHTML = "Correct&nbsp&nbsp";
+          document.getElementById("summary3").innerHTML = "Correct - Further OT assessment to assess cooking is NOT LIKELY required";
           incorrect3.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -290,6 +296,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect4").innerHTML = "Sorry incorrect&nbsp&nbsp";
+          document.getElementById("summary4").innerHTML = "Incorrect - Further OT assessment to assess laundry is LIKELY required";
           incorrect4.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -301,6 +308,7 @@
           break;
           }
           else {document.getElementById("incorrect4").innerHTML = "Correct&nbsp&nbsp";
+          document.getElementById("summary4").innerHTML = "Correct - Further OT assessment to assess laundry is NOT LIKELY required";
           incorrect4.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -368,6 +376,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect5").innerHTML = "Sorry incorrect&nbsp&nbsp";
+          document.getElementById("summary5").innerHTML = "Incorrect - Further OT assessment to assess cleaning is LIKELY required";
           incorrect5.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -379,6 +388,7 @@
           break;
           }
           else {document.getElementById("incorrect5").innerHTML = "Correct&nbsp&nbsp";
+          document.getElementById("summary5").innerHTML = "Correct - Further OT assessment to assess cleaning is NOT LIKELY required";
           incorrect5.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -445,6 +455,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect6").innerHTML = "Sorry incorrect&nbsp&nbsp";
+          document.getElementById("summary6").innerHTML = "Incorrect - Further OT assessment to assess public transport access is LIKELY required";
           incorrect6.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -456,6 +467,7 @@
           break;
           }
           else {document.getElementById("incorrect6").innerHTML = "Correct&nbsp&nbsp";
+          document.getElementById("summary6").innerHTML = "Correct - Further OT assessment to assess public transport access is NOT LIKELY required";
           incorrect6.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -523,6 +535,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect7").innerHTML = "Sorry incorrect&nbsp&nbsp";
+          document.getElementById("summary7").innerHTML = "Incorrect - Further OT assessment to assess medication management is LIKELY required";
           incorrect7.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -534,6 +547,7 @@
           break;
           }
           else {document.getElementById("incorrect7").innerHTML = "Correct&nbsp&nbsp";
+          document.getElementById("summary7").innerHTML = "Correct - Further OT assessment to assess medication management is NOT LIKELY required";
           incorrect7.style.color = 'darkgreen';
           var img = document.createElement("img");
        

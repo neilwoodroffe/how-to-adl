@@ -36,7 +36,22 @@ figure {
 }
 .btn {color: black;
 }
-hr {border-color: lightgrey;}
+hr {border-color: #dddddd;}
+table {
+    /*font-family: arial, sans-serif;*/
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 
 </style>
@@ -212,6 +227,43 @@ hr {border-color: lightgrey;}
 <p id="answer7"></p>
 
 <hr>
+<h1>Summary</h1>
+<table>
+  <tr>
+    <th>Activity</th>
+    <th>Results and Recommendations</th>
+  </tr>
+  <tr>
+    <td>Withdraw money from an ATM</td>
+    <td id="summary"></td>
+  </tr>
+  <tr>
+    <td>Grocery shopping</td>
+    <td id="summary2"></td>
+  </tr>
+  <tr>
+      <td>Cooking chicken stirfry</td>
+      <td id="summary3"></td>
+  </tr>
+  <tr>
+      <td>Laundry</td>
+      <td id="summary4"></td>
+  </tr>
+  <tr>
+      <td>Cleaning the floor</td>
+      <td id="summary5"></td>
+  </tr>
+  <tr>
+      <td>Catch a bus to an unfamiliar destination</td>
+      <td id="summary6"></td>
+  </tr>
+  <tr>
+      <td>Go to the doctor to get a prescription</td>
+      <td id="summary7"></td>
+  </tr>
+<table>
+<br>
+
 <p style="text-align:center"><button class="btn btn-primary btn-lg"  onclick="printPage()">Print this page</button>&nbsp Click this button to print (or save as PDF)</p>
 
 
