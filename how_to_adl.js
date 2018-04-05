@@ -65,7 +65,7 @@
           break;
           }
           else {document.getElementById("incorrect").innerHTML = "Correct&nbsp&nbsp";
-          document.getElementById("summary").innerHTML = "Correct - Further OT assessment to assess banking is NOT LIKELY required";
+          document.getElementById("summary").innerHTML = "Correct - Further OT assessment to assess banking MAY STILL be required";
           incorrect.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -146,7 +146,7 @@
           break;
           }
           else {document.getElementById("incorrect2").innerHTML = "Correct&nbsp&nbsp";
-          document.getElementById("summary2").innerHTML = "Correct - Further OT assessment to assess grocery shopping is NOT LIKELY required";
+          document.getElementById("summary2").innerHTML = "Correct - Further OT assessment to assess grocery shopping MAY STILL be required";
           incorrect2.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -173,7 +173,7 @@
   
   //Display correct answers
   function correctAnswers3() {
-      document.getElementById("answer3").innerHTML = "Answer:<br><br>1. Wash your hands<br>2. Get your ingredients ready<br>3. Cut up the chicken and vegetables<br>4. Add oil to pan and turn on hotplate to a medium heat<br>5. Cook chicken until light golden brown<br>6. Add vegetables, sauce and stir regularly<br>7. Turn heat down to low-medium heat and simmer until vegetable are cooked<br>8. Turn off the hotplate<br>9. Serve stirfry with noodles or rice <br><br>Congratulations if you got this correct, if not take time to review the answer";
+      document.getElementById("answer3").innerHTML = "Answer:<br><br>1. Wash your hands<br>2. Get your ingredients ready<br>3. Cut up the chicken and vegetables using food hygiene principles <br>4. Add oil to pan and turn on hotplate to a medium heat<br>5. Cook chicken until light golden brown<br>6. Add vegetables, sauce and stir regularly<br>7. Turn heat down to low-medium heat and simmer until vegetable are cooked<br>8. Turn off the hotplate<br>9. Serve stirfry with noodles or rice <br><br>Congratulations if you got this correct, if not take time to review the answer";
   }
   
   //Display hidden numbers
@@ -227,7 +227,7 @@
           break;
           }
           else {document.getElementById("incorrect3").innerHTML = "Correct&nbsp&nbsp";
-          document.getElementById("summary3").innerHTML = "Correct - Further OT assessment to assess cooking is NOT LIKELY required";
+          document.getElementById("summary3").innerHTML = "Correct - Further OT assessment to assess cooking MAY STILL be required";
           incorrect3.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -308,7 +308,7 @@
           break;
           }
           else {document.getElementById("incorrect4").innerHTML = "Correct&nbsp&nbsp";
-          document.getElementById("summary4").innerHTML = "Correct - Further OT assessment to assess laundry is NOT LIKELY required";
+          document.getElementById("summary4").innerHTML = "Correct - Further OT assessment to assess laundry MAY STILL be required";
           incorrect4.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -388,7 +388,7 @@
           break;
           }
           else {document.getElementById("incorrect5").innerHTML = "Correct&nbsp&nbsp";
-          document.getElementById("summary5").innerHTML = "Correct - Further OT assessment to assess cleaning is NOT LIKELY required";
+          document.getElementById("summary5").innerHTML = "Correct - Further OT assessment to assess cleaning MAY STILL be required";
           incorrect5.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -467,7 +467,7 @@
           break;
           }
           else {document.getElementById("incorrect6").innerHTML = "Correct&nbsp&nbsp";
-          document.getElementById("summary6").innerHTML = "Correct - Further OT assessment to assess public transport access is NOT LIKELY required";
+          document.getElementById("summary6").innerHTML = "Correct - Further OT assessment to assess public transport access MAY STILL be required";
           incorrect6.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -535,7 +535,7 @@
         
           shouldSwitch= true;
           document.getElementById("incorrect7").innerHTML = "Sorry incorrect&nbsp&nbsp";
-          document.getElementById("summary7").innerHTML = "Incorrect - Further OT assessment to assess medication management is LIKELY required";
+          document.getElementById("summary7").innerHTML = "Incorrect - Further OT assessment to assess medical treatment access is LIKELY required";
           incorrect7.style.color = 'red';
   // https://www.quora.com/How-do-you-insert-an-image-in-Javascript
             var img = document.createElement("img");
@@ -547,7 +547,7 @@
           break;
           }
           else {document.getElementById("incorrect7").innerHTML = "Correct&nbsp&nbsp";
-          document.getElementById("summary7").innerHTML = "Correct - Further OT assessment to assess medication management is NOT LIKELY required";
+          document.getElementById("summary7").innerHTML = "Correct - Further OT assessment to assess medical treatment access MAY STILL be required";
           incorrect7.style.color = 'darkgreen';
           var img = document.createElement("img");
        
@@ -559,6 +559,33 @@
       }
     }
   }
+
+//https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+  // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
   function printPage() {
     window.print();
 }

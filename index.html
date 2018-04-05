@@ -52,6 +52,44 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 </style>
@@ -118,7 +156,7 @@ tr:nth-child(even) {
 	<li class="list-group-item"><figure hidden>6.</figure> Add vegetables, sauce and stir regularly</li>
 	<li class="list-group-item"><figure hidden>9.</figure> Serve stirfry with noodles or rice</li>
 	<li class="list-group-item"><figure hidden>5.</figure> Cook chicken until light golden brown</li>
-	<li class="list-group-item"><figure hidden>3.</figure> Cut up the chicken and vegetables </li>
+	<li class="list-group-item"><figure hidden>3.</figure> Cut up the chicken and vegetables using food hygiene principles </li>
     <li class="list-group-item"><figure hidden>7.</figure> Turn heat down to low-medium heat and simmer until vegetables are cooked</li>
     <li class="list-group-item"><figure hidden>8.</figure> Turn off the hotplate</li>
     <li class="list-group-item"><figure hidden>4.</figure> Add oil to pan and turn on the hotplate to a medium-high heat</li>
@@ -228,6 +266,24 @@ tr:nth-child(even) {
 
 <hr>
 <h1>Summary</h1>
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal -->
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Please Read</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>"How to ADL" is not currently a standardised assessment tool nor has it been tested for validity or reliability and it should
+        only be used as a screening tool. Though it does test someone's cognitive processes in relation to activity completion it does 
+        not guarantee that the person can actually complete the task. Further observational Occupational Therapy (OT) assessment is likely
+        required in most cases and it is up to the clinical judgement of the assessing Occupational Therapist to decided whether this is required.
+    </p>
+  </div>
+
+</div>
 <table>
   <tr>
     <th>Activity</th>
